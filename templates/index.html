@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> {{title}}</h1>
+    <h2>{{ism}}</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis totam id hic sunt quibusdam officia ab
+        molestiae repudiandae facere possimus esse eos, ullam, cumque dolor cupiditate. Error hic natus earum.</p>
+
+    <a href="https://google.com"> Googlega kirish</a>
+    <div>
+
+        <ul>
+            {% for meva in mevalar%}
+
+            <li> {{meva}}
+            </li>
+            {%endfor%}
+        </ul>
+
+
+    </div>
+    <div>
+
+        <ul>
+            {% for ism in ismlar%}
+
+            <li> {{ism}}
+            </li>
+            {%endfor%}
+        </ul>
+
+
+
+
+    </div>
+
+
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ziyodullo</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Bobur</td>
+        </tr>
+    </table>
+
+    <button>salom</button>
+
+    <form>
+        <input placeholder="ism yoz" />
+        <input placeholder="ism yoz" type="number" />
+        <input type="radio" />
+        <input type="radio" />
+        <input type="date" />
+        <input type="time" />
+        <input type="checkbox" />
+        <input type="password" />
+        <input type="color" />
+
+    </form>
+</body>
+
+</html>
