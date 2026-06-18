@@ -28,6 +28,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'shop',
+    'todo',
+    'category',
+    'product',
+    'fintechhub',
 ]
 
 MIDDLEWARE = [
